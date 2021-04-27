@@ -40,6 +40,7 @@ namespace oop.model
         {
             // I1.10 Miért nem használható az ősosztály adattagja?
             //       Az állatnál megadott name mégsem örökődik
+            // I1.12 Protected láthatósággal már öröklődnek az adatok
             Console.WriteLine(name + " kutya vagyok, fajtám: " + breed);
         }
     }
