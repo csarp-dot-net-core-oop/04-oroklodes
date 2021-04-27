@@ -24,5 +24,26 @@ namespace oop.model
         /// </summary>
         private int age;
 
+        /// I1.03 Az összes állatra vonatkozó metódusok
+        /// 
+        /// <summary>
+        /// Konstruktor
+        /// </summary>
+        /// <param name="name">Az állat neve</param>
+        /// <param name="age">Az állat életkora</param>
+        protected Animal(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
+
+        /// <summary>
+        /// Metódus amellyel köszönti a látogatót
+        /// </summary>
+        public void Greet()
+        {
+            Console.WriteLine("Helló, az én nevem " + name + " és " + age + " éves vagyok.");
+        }
+
     }
 }
