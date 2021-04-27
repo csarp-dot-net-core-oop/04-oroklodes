@@ -18,11 +18,12 @@ namespace oop.model
         /// Az állat neve
         /// </summary>        
 
-        private string name;
+        // I1.11 Az adatok csak akkor öröklődnek, ha protected láthatósággal adjuk meg őket
+        protected string name;
         /// <summary>
         /// Az állat életkora
         /// </summary>
-        private int age;
+        protected int age;
 
         /// I1.03 Az összes állatra vonatkozó metódusok
         /// 
