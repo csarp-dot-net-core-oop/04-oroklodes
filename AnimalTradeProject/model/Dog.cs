@@ -13,6 +13,12 @@ namespace oop.model
     /// 
     class Dog : Animal
     {
+        /// <summary>
+        /// I1.07 A származtatott osztályra jellemző tulajdonság
+        ///       A kutyára jellemző tulajdonság pl. a fajta
+        /// </summary>
+        private string breed;
+
         /// I1.05 Készítsük el a kutya osztály konstruktorát
         ///       A fordító az Animal osztállyal kapcsolatos hibát jelez 
         public Dog(string name, int age)
