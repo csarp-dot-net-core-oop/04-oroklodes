@@ -16,6 +16,8 @@ namespace AnimalTradeProject
             f.MyDatas();
 
             // I1.14 Nézzük meg az osztályok UML diagramját
+
+            // I1.15 Készítsük el a macska osztályt, amely szintén állat, és jellemzője a bundájának a színe
         }
     }
 }
