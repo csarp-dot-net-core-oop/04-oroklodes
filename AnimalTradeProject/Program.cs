@@ -14,6 +14,8 @@ namespace AnimalTradeProject
             Dog f = new Dog("Frakk", 3, "németjuhász");
             f.Greet();
             f.MyDatas();
+
+            // I1.14 Nézzük meg az osztályok UML diagramját
         }
     }
 }
