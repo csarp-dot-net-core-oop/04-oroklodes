@@ -30,5 +30,14 @@ namespace oop.model
         {
             this.breed = breed;
         }
+
+        /// I1.09 Származtatott osztály metódusa
+        ///       Kutyára jellemző metódus
+        /// <summary>
+        /// Kutya megadja adatait
+        /// </summary>
+        public void MyDatas()
+        {
+        }
     }
 }
