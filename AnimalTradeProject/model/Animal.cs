@@ -12,6 +12,17 @@ namespace oop.model
     /// </summary>
     abstract class Animal
     {
+        /// I1.02 Adattagok
+        ///       Olyan adatokat adunk meg, amellyel minden állat rendelkezik
+        /// <summary>
+        /// Az állat neve
+        /// </summary>        
+
+        private string name;
+        /// <summary>
+        /// Az állat életkora
+        /// </summary>
+        private int age;
 
     }
 }
