@@ -13,5 +13,7 @@ namespace oop.model
     /// 
     class Dog : Animal
     {
+        /// I1.05 Készítsük el a kutya osztály konstruktorát
+        ///       A fordító az Animal osztállyal kapcsolatos hibát jelez 
     }
 }
