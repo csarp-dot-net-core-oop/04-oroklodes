@@ -38,6 +38,9 @@ namespace oop.model
         /// </summary>
         public void MyDatas()
         {
+            // I1.10 Miért nem használható az ősosztály adattagja?
+            //       Az állatnál megadott name mégsem örökődik
+            Console.WriteLine(name + " kutya vagyok, fajtám: " + breed);
         }
     }
 }
