@@ -15,5 +15,11 @@ namespace oop.model
     {
         /// I1.05 Készítsük el a kutya osztály konstruktorát
         ///       A fordító az Animal osztállyal kapcsolatos hibát jelez 
+        public Dog(string name, int age)
+            /// I1.06 Ösosztály konstruktorának meghívása
+            ///       Tehát mielőtt lefut a kutya konstruktort meg kell hívni az "Animal" osztály = base konstruktorát
+            : base(name, age)
+        { 
+        }
     }
 }
